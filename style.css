@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.background{
+    
+    background-image: url('background.jpg');
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+
+}
+/*--------------Blocco Centrale-----------------------*/
+.container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 4vw;
+    padding-right: 4vw; 
+    padding-top: 6vh;
+    top: 50%;
+    left: 50%;
+    width: 62vw;
+    height: 85vh;
+    transform: translate(-50% ,-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding-bottom: 5vh;
+    
+}
+/*--------------------------------*/
+.logo{
+    display: block;
+    width: 13vw;
+    
+}
+
+/*---------------------Testo Centrale-----------------------------------------*/
+h2{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: #0d0
+
+}
+/*--------------------------------------*/
+/*--------------Personalizzazione Blocco Bottoni-------------------------*/
+
+.input_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.4vh;
+    padding-bottom: 0.4vh;
+    background-color: #0d0;
+    
+}
+
+.input_container > button{
+    font-size: 12px;
+    margin-top: 0.2vh;
+    margin-bottom: 0.2vh;
+}
+
+#button2{
+    margin-left: 0.3vw;
+    margin-right: 0.3vw;
+}
+/*----------------------------------------------------------------*/
+/*----Personalizzazione Blocco Monopattino----*/
+.user{
+    font-family: 'Roboto', sans-serif; ;
+    margin-top: 2vh;
+    color: white;
+    width: 100%;
+/*----------------------------------------*/
+}
+#freccia::before{
+    margin-right: 2px;
+    content: "\21A6";
+}
+/*---Icona Freccia---*/
+#square::before{
+    content: "\25FC";
+}
+/*------------------*/
+.name{
+    display: inline-block;
+    font-size: 15px;
+}
+/*-----Testo via monopattino----*/
+h6{
+    display: inline-block;
+    margin-left: 2px;
+}
+/*-----------------------------*/
+
+.barra_utente{
+    height: 25px;
+    border-radius: 5px;
+}
+/*------Prima-Seconda-Terza_Barra-----*/
+#primo {
+    width: 13vw;
+    background: #f5b453;
+}
+
+#secondo{
+    width: 25vw;
+    background: #1ec31e;
+}
+
+#terzo{
+    width: 6vw;
+    background: #be4141;
+}
+.charge{
+    display: block;
+}
